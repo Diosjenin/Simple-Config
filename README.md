@@ -10,7 +10,7 @@ All operations are as thread-safe as possible (within the confines of the .NET s
 
 All custom classes are 100% covered by their own unit tests, and (where appropriate) have additional tests for thread safety and memory leaks.  All classes compile without any warnings from the Microsoft All Rules warning set, with a few select exceptions made (and suppressed) for stylistic and testing purposes only.
 
-#### Great! Can I use it?
+### Great! Can I use it?
 
 Knock yourself out (as per the license), but I won't be packaging or supporting it.  Here's why:
 
