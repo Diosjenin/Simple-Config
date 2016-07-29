@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Rules for Tests" Description="Code analysis rules for tests" ToolsVersion="14.0">
+  <IncludeAll Action="Warning" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1020" Action="None" /> <!-- avoid namespaces with few types -->
+    <Rule Id="CA1031" Action="None" /> <!-- do not catch general exception types -->
+    <Rule Id="CA1305" Action="None" /> <!-- specify IFormatProvider -->
+    <Rule Id="CA1806" Action="None" /> <!-- do not ignore method results -->
+    <Rule Id="CA2001" Action="None" /> <!-- avoid calling problematic methods -->
+  </Rules>
+</RuleSet>
